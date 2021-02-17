@@ -118,13 +118,11 @@
             "correct" => "op1"
         ),
     );
-    echo "<pre>";
+  
 
     $count = 0;
     foreach ($Ques as $key1 => $v1) {
-        // echo "<pre>";
-        // print_r($_POST[$key1]);
-        // print_r($v1['correct']);
+      
    if(isset($_POST[$key1])){
         if ($_POST[$key1] == $v1['correct']) {
             $count++;
